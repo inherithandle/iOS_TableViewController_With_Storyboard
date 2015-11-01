@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE10A5181BE499DC001C9C63 /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE10A5171BE499DC001C9C63 /* PlayersViewController.m */; };
+		CE10A51C1BE49B3D001C9C63 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = CE10A51B1BE49B3D001C9C63 /* Player.m */; };
+		CE10A51F1BE4E21B001C9C63 /* PlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE10A51E1BE4E21B001C9C63 /* PlayerCell.m */; };
 		CE4E04781BC935570029DC35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E04771BC935570029DC35 /* main.m */; };
 		CE4E047B1BC935570029DC35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E047A1BC935570029DC35 /* AppDelegate.m */; };
 		CE4E047E1BC935570029DC35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E047D1BC935570029DC35 /* ViewController.m */; };
@@ -14,6 +17,7 @@
 		CE4E04831BC935570029DC35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4E04821BC935570029DC35 /* Images.xcassets */; };
 		CE4E04861BC935570029DC35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4E04841BC935570029DC35 /* LaunchScreen.xib */; };
 		CE4E04921BC935580029DC35 /* RatingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E04911BC935580029DC35 /* RatingsTests.m */; };
+		CEFEE5061BE525E900482125 /* PlayerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFEE5051BE525E900482125 /* PlayerDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE10A5171BE499DC001C9C63 /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersViewController.m; sourceTree = "<group>"; };
+		CE10A5191BE49A06001C9C63 /* PlayersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayersViewController.h; sourceTree = "<group>"; };
+		CE10A51A1BE49B32001C9C63 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		CE10A51B1BE49B3D001C9C63 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		CE10A51D1BE4E212001C9C63 /* PlayerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerCell.h; sourceTree = "<group>"; };
+		CE10A51E1BE4E21B001C9C63 /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCell.m; sourceTree = "<group>"; };
 		CE4E04721BC935570029DC35 /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4E04761BC935570029DC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4E04771BC935570029DC35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,8 @@
 		CE4E048B1BC935580029DC35 /* RatingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4E04901BC935580029DC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4E04911BC935580029DC35 /* RatingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingsTests.m; sourceTree = "<group>"; };
+		CEFEE5051BE525E900482125 /* PlayerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailsViewController.m; sourceTree = "<group>"; };
+		CEFEE5071BE525EE00482125 /* PlayerDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerDetailsViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +95,20 @@
 			children = (
 				CE4E04791BC935570029DC35 /* AppDelegate.h */,
 				CE4E047A1BC935570029DC35 /* AppDelegate.m */,
+				CE10A51A1BE49B32001C9C63 /* Player.h */,
+				CE10A51B1BE49B3D001C9C63 /* Player.m */,
 				CE4E047C1BC935570029DC35 /* ViewController.h */,
 				CE4E047D1BC935570029DC35 /* ViewController.m */,
+				CE10A5191BE49A06001C9C63 /* PlayersViewController.h */,
+				CE10A5171BE499DC001C9C63 /* PlayersViewController.m */,
 				CE4E047F1BC935570029DC35 /* Main.storyboard */,
 				CE4E04821BC935570029DC35 /* Images.xcassets */,
 				CE4E04841BC935570029DC35 /* LaunchScreen.xib */,
 				CE4E04751BC935570029DC35 /* Supporting Files */,
+				CE10A51D1BE4E212001C9C63 /* PlayerCell.h */,
+				CE10A51E1BE4E21B001C9C63 /* PlayerCell.m */,
+				CEFEE5051BE525E900482125 /* PlayerDetailsViewController.m */,
+				CEFEE5071BE525EE00482125 /* PlayerDetailsViewController.h */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -220,8 +240,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4E047E1BC935570029DC35 /* ViewController.m in Sources */,
+				CE10A5181BE499DC001C9C63 /* PlayersViewController.m in Sources */,
 				CE4E047B1BC935570029DC35 /* AppDelegate.m in Sources */,
 				CE4E04781BC935570029DC35 /* main.m in Sources */,
+				CE10A51F1BE4E21B001C9C63 /* PlayerCell.m in Sources */,
+				CE10A51C1BE49B3D001C9C63 /* Player.m in Sources */,
+				CEFEE5061BE525E900482125 /* PlayerDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +305,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -324,7 +347,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -416,6 +438,7 @@
 				CE4E04971BC935580029DC35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE4E04981BC935580029DC35 /* Build configuration list for PBXNativeTarget "RatingsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +447,7 @@
 				CE4E049A1BC935580029DC35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
